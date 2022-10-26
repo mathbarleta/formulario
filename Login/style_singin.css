@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Report";
+    src: url(../Main/Fontes/report-semi-bold-maisfontes.ded2/);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.full-box {
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0vw 0vw 10vw #ddc7b5;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Imagens/background.png);
+    background-size: 80vh;
+    border-radius: 30px 30px 30px 30px;
+    width: 50%;
+    margin-left: 1%;
+    height: 77vh;
+}
+
+.img-box-txt {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.h1-txt {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 100px 0 0 0;
+}
+
+.h2-txt {
+    color: #ffffff;
+    font-family: "Report";
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.img-main {
+    margin-top: 50px;
+    width: 26vw;
+    justify-content: center;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 35px;
+}
+
+.paw-img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#paw-img {
+    width: 110px;
+}
+
+.login-box-txt {
+    color: gray;
+    font-size: 30px;
+}
+
+.login-box form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.login-box input{
+    margin: 10px 0 0 0;
+    color: #808080;
+    border: 1px solid #FE9953;
+    height: 45px;
+    width: 15.6vw;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    font-size: 14px;
+    color: #808080;
+    padding-left: 10px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-image: linear-gradient(to bottom, #eea849 ,#FF8024);
+    box-shadow: 0.15vw 0.15vw 1vw #e2d7cf;
+    border: none;
+    font-size: 1vw;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 15.6vw;
+    margin: 0;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.proletariado {
+    text-align: start;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+    font-size: 11px;
+    width: 13.5vw;
+}
+
+a {
+    color: #FF8024;
+    text-decoration: none;
+    text-align: end;
+}
